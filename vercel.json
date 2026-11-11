@@ -1,6 +1,13 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/api/index?p=" },
-    { "source": "/api/:p*", "destination": "/api/index?p=:p*" }
+    { "source": "/api/play", "destination": "/api/index?p=play" },
+    { "source": "/api/queue", "destination": "/api/index?p=queue" },
+    { "source": "/api/control", "destination": "/api/index?p=control" },
+    { "source": "/api/skip", "destination": "/api/index?p=skip" },
+    { "source": "/api/state", "destination": "/api/index?p=state" },
+    { "source": "/api/settings", "destination": "/api/index?p=settings" },
+    { "source": "/api/next", "destination": "/api/index?p=next" },
+    { "source": "/api/openapi.json", "destination": "/api/index?p=openapi.json" }
   ]
 }

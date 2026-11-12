@@ -8,6 +8,10 @@
     { "source": "/api/skip", "destination": "/api/index?p=skip" },
     { "source": "/api/state", "destination": "/api/index?p=state" },
     { "source": "/api/settings", "destination": "/api/index?p=settings" },
-    { "source": "/api/next", "destination": "/api/index?p=next" }
+    { "source": "/api/next", "destination": "/api/index?p=next" },
+    { "source": "/api/float/mcp/:key", "destination": "/api/float?p=mcp&k=:key" },
+{ "source": "/api/float/state", "destination": "/api/float?p=state" },
+{ "source": "/api/float/push", "destination": "/api/float?p=push" }
+    
   ]
 }
